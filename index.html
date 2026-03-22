@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Политика конфиденциальности — КОДА — Выгрузки с МП</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, sans-serif;
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 40px 20px;
+      background: #0f0f1a;
+      color: #e0e0e0;
+      line-height: 1.7;
+    }
+    h1 { color: #c4b5fd; font-size: 24px; margin-bottom: 8px; }
+    h2 { color: #a78bfa; font-size: 18px; margin-top: 30px; }
+    p, li { font-size: 14px; }
+    ul { padding-left: 20px; }
+    a { color: #a78bfa; }
+    .updated { color: #888; font-size: 12px; margin-bottom: 30px; }
+    .author { margin-top: 40px; padding-top: 20px; border-top: 1px solid #333; font-size: 13px; color: #888; }
+  </style>
+</head>
+<body>
+  <h1>Политика конфиденциальности</h1>
+  <p class="updated">Последнее обновление: 21 марта 2026 г.</p>
+  <p><strong>КОДА — Выгрузки с МП</strong> — расширение для браузера Google Chrome, предназначенное для массового скачивания отчётов из кабинета продавца на маркетплейсах Wildberries и Ozon.</p>
+
+  <h2>1. Какие данные собирает расширение</h2>
+  <p>Расширение <strong>не собирает, не хранит и не передаёт</strong> персональные данные пользователей третьим лицам.</p>
+
+  <h2>2. Данные, обрабатываемые локально</h2>
+  <p>Для работы расширение использует следующие данные, которые обрабатываются исключительно на устройстве пользователя:</p>
+  <ul>
+    <li><strong>Cookies авторизации</strong> — используются для выполнения запросов к API маркетплейсов от имени пользователя. Расширение не читает, не копирует и не сохраняет содержимое cookies.</li>
+    <li><strong>Настройки расширения</strong> — выбранные отчёты, период и параметры колонок сохраняются в локальном хранилище браузера (chrome.storage.local) для удобства пользователя.</li>
+    <li><strong>Данные отчётов</strong> — скачанные отчёты временно хранятся в оперативной памяти для формирования ZIP-архива, после чего удаляются. Расширение не сохраняет данные отчётов на диск помимо итогового архива.</li>
+  </ul>
+
+  <h2>3. Сетевые запросы</h2>
+  <p>Расширение выполняет запросы исключительно к официальным API маркетплейсов:</p>
+  <ul>
+    <li>*.wildberries.ru — API Wildberries для скачивания отчётов</li>
+    <li>seller.ozon.ru — API Ozon для скачивания отчётов</li>
+  </ul>
+  <p>Расширение <strong>не отправляет данные</strong> на какие-либо сторонние серверы, не использует аналитику и не содержит рекламы.</p>
+
+  <h2>4. Разрешения</h2>
+  <ul>
+    <li><strong>downloads</strong> — для сохранения ZIP-архива с отчётами на устройство пользователя</li>
+    <li><strong>storage</strong> — для сохранения настроек расширения (выбор отчётов, период)</li>
+    <li><strong>cookies</strong> — для авторизации запросов к API маркетплейсов</li>
+    <li><strong>scripting</strong> — для выполнения запросов к API в контексте вкладки маркетплейса</li>
+    <li><strong>Host permissions</strong> — доступ к доменам Wildberries и Ozon для скачивания отчётов</li>
+  </ul>
+
+  <h2>5. Безопасность</h2>
+  <p>Все данные обрабатываются локально в браузере пользователя. Исходный код расширения не обфусцирован и доступен для проверки.</p>
+
+  <h2>6. Контакты</h2>
+  <p>По вопросам конфиденциальности обращайтесь:</p>
+  <ul>
+    <li>Telegram: <a href="https://t.me/finance_modern">@finance_modern</a></li>
+    <li>Автор: Ольга Кондрацкая</li>
+  </ul>
+
+  <div class="author">&copy; 2026 Ольга Кондрацкая. Все права защищены.</div>
+</body>
+</html>
